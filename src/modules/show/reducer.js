@@ -1,5 +1,10 @@
 import { MainTypes } from "./types";
-export const defaultState = {};
+export const defaultState = {
+  show: undefined,
+  episodeList: undefined,
+  episode: undefined,
+  error: undefined,
+};
 
 export default (state = defaultState, action) => {
   switch (action.type) {
@@ -28,6 +33,12 @@ export default (state = defaultState, action) => {
         error: action.payload,
       };
 
+    case MainTypes.FETCH_SHOW_EPISODE:
+      return {
+        ...state,
+        episode: undefined,
+      };
+
     case MainTypes.FETCH_SHOW_EPISODE_SUCCEEDED:
       return {
         ...state,
@@ -38,7 +49,7 @@ export default (state = defaultState, action) => {
       return {
         ...state,
         episode: null,
-        error: action.payload,
+        error: true,
       };
 
     default:

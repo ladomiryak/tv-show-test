@@ -6,11 +6,11 @@ import "./style.scss";
 
 const Show = () => {
   const [selectedShow, setSelectedShow] = useState(6771);
-  const { id } = useParams();
+  const { showId } = useParams();
 
   useEffect(() => {
-    if (id) setSelectedShow(id);
-  }, [id]);
+    if (showId) setSelectedShow(showId);
+  }, [showId]);
 
   return (
     <div>

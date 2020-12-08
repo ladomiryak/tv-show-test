@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { ConnectedRouter } from "connected-react-router";
 import { Route, Switch, Redirect } from "react-router-dom";
 // import CONSTANTS from "../../constants";
 import history from "../../utils/history";
-import { Show } from "../../modules/show";
+import { Show, ShowEpisode } from "../../modules/show";
 
 // const { ROUTES } = CONSTANTS;
 
@@ -18,7 +18,12 @@ const RootRoutes = ({ isSynced }) => {
     <>
       <ConnectedRouter history={history}>
         <Switch>
-          <Route path="/show" component={Show} />
+          <Route exact path="/show/:showId?" component={Show} />
+          <Route
+            exact
+            path="/show/:showId/season/:seasonNum/episode/:episodeNum"
+            component={ShowEpisode}
+          />
           <Redirect to="/show" />
         </Switch>
       </ConnectedRouter>

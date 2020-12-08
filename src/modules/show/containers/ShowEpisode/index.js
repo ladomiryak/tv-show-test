@@ -1,19 +1,18 @@
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import Component from "./ShowEpisodeList";
+import Component from "./ShowEpisode";
 import * as showActions from "../../actions";
 import { showSelectors } from "../../selectors";
 
 const mapStateToProps = (state) => ({
-  episodeList: showSelectors.getShowEpisodeList(state),
-  show: showSelectors.getShow(state),
+  episode: showSelectors.getShowEpisode(state),
   error: showSelectors.getError(state),
 });
 
 const mapDispatchToProps = (dispatch) =>
   bindActionCreators(
     {
-      fetchShowEpisodeList: showActions.fetchShowEpisodeList,
+      fetchShowEpisode: showActions.fetchShowEpisode,
     },
     dispatch
   );

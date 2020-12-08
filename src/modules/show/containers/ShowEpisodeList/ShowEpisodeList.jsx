@@ -2,7 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./style.scss";
 
-const ShowDetails = ({ showId, episodeList, fetchShowEpisodeList, show }) => {
+const ShowDetails = ({
+  error,
+  showId,
+  episodeList,
+  fetchShowEpisodeList,
+  show,
+}) => {
   const [listFiltered, setListFiltered] = useState([]);
 
   useEffect(() => {
@@ -18,6 +24,10 @@ const ShowDetails = ({ showId, episodeList, fetchShowEpisodeList, show }) => {
       setListFiltered(filteredBySeasonList(episodeList));
     }
   }, [episodeList]);
+
+  if (error) {
+    return "Something went wrong. Try later, please.";
+  }
 
   if (!episodeList) {
     return "Loading";
@@ -41,9 +51,13 @@ const ShowDetails = ({ showId, episodeList, fetchShowEpisodeList, show }) => {
             <ul>
               {listFiltered[key].map((episode) => (
                 <li key={episode.name}>
-                  <img src={episode?.image?.medium} alt="Episode poster" />
+                  {episode.image && (
+                    <img src={episode.image.medium} alt="Episode poster" />
+                  )}
                   <h4>
-                    <Link to={`/show/${showId}/episodes/${episode.id}`}>
+                    <Link
+                      to={`/show/${showId}/season/${episode.season}/episode/${episode.number}`}
+                    >
                       {episode?.name}
                     </Link>
                   </h4>

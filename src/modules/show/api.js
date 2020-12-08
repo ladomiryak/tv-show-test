@@ -9,7 +9,7 @@ export const fetchShow = ({ showId }) =>
 export const fetchShowEpisodeList = ({ showId }) =>
   axios.get(`${API.API_URL}/shows/${showId}/episodes`);
 
-export const fetchShowEpisode = ({ showId, seasonNumber, episodeNumber }) =>
+export const fetchShowEpisode = ({ showId, seasonNum, episodeNum }) =>
   axios.get(
-    `${API.API_URL}/shows/${showId}/episodebynumber?season=${seasonNumber}&number=${episodeNumber}`
+    `${API.API_URL}/shows/${showId}/episodebynumber?season=${seasonNum}&number=${episodeNum}`
   );
