@@ -1,12 +1,12 @@
 import { all } from "redux-saga/effects";
 // -- start importing sagas
-import { saga as main } from "./show";
+import { saga as show } from "./show";
 // -- end importing sagas
 
 const rootSaga = function* () {
   return yield all([
     // -- start connecting sagas
-    ...main,
+    ...show,
     // -- end connecting sagas
   ]);
 };
