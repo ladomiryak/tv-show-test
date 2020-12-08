@@ -33,7 +33,7 @@ const ShowDetails = ({ show, fetchShow }) => {
       </h1>
       <ul>
         {genres.map((genre) => (
-          <li>{genre}</li>
+          <li key={genre}>{genre}</li>
         ))}
       </ul>
       <p dangerouslySetInnerHTML={{ __html: summary }} />
