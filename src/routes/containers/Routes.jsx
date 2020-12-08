@@ -3,12 +3,12 @@ import { ConnectedRouter } from "connected-react-router";
 import { Route, Switch, Redirect } from "react-router-dom";
 // import CONSTANTS from "../../constants";
 import history from "../../utils/history";
-import { ShowDetails } from "../../modules/show";
+import { Show } from "../../modules/show";
 
 // const { ROUTES } = CONSTANTS;
 
 const RootRoutes = ({ isSynced }) => {
-  useEffect(() => {}, []);
+  // useEffect(() => {}, []);
 
   // if (!isSynced) {
   //   return "loading";
@@ -18,8 +18,8 @@ const RootRoutes = ({ isSynced }) => {
     <>
       <ConnectedRouter history={history}>
         <Switch>
-          <Route path="/" component={ShowDetails} />
-          <Redirect to="/" />
+          <Route path="/show" component={Show} />
+          <Redirect to="/show" />
         </Switch>
       </ConnectedRouter>
     </>

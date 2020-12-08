@@ -18,13 +18,13 @@ export default (state = defaultState, action) => {
     case MainTypes.FETCH_SHOW_EPISODE_LIST_SUCCEEDED:
       return {
         ...state,
-        eposides: action.payload,
+        episodeList: action.payload,
       };
 
     case MainTypes.FETCH_SHOW_EPISODE_LIST_FAILED:
       return {
         ...state,
-        episodes: null,
+        episodeList: null,
         error: action.payload,
       };
 

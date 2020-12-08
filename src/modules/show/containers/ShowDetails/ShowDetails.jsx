@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./style.scss";
 
-const ShowDetails = ({ show, fetchShow }) => {
-  const [showId, setShowId] = useState(1);
-
+const ShowDetails = ({ showId, show, fetchShow }) => {
   useEffect(() => {
     if (showId) {
       fetchShow({
