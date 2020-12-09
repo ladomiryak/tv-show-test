@@ -1,15 +1,15 @@
-import axios from "axios";
+import { baseApi } from "../../utils/apiService";
 import CONSTANTS from "../../constants";
 
 const { API } = CONSTANTS;
 
 export const fetchShow = ({ showId }) =>
-  axios.get(`${API.API_URL}/shows/${showId}`);
+  baseApi.get(`/${API.SHOW_URL}/${showId}`);
 
 export const fetchShowEpisodeList = ({ showId }) =>
-  axios.get(`${API.API_URL}/shows/${showId}/episodes`);
+  baseApi.get(`/${API.SHOW_URL}/${showId}/episodes`);
 
 export const fetchShowEpisode = ({ showId, seasonNum, episodeNum }) =>
-  axios.get(
-    `${API.API_URL}/shows/${showId}/episodebynumber?season=${seasonNum}&number=${episodeNum}`
+  baseApi.get(
+    `/${API.SHOW_URL}/${showId}/episodebynumber?season=${seasonNum}&number=${episodeNum}`
   );
