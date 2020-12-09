@@ -1,13 +1,35 @@
-.show {
+@import "../../.././../assets/scss/colors";
+
+.episode {
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba($primary, 0.1);
+  padding-top: 20px;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+
   &__poster {
+    margin-right: 24px;
+    box-shadow: 0 0 10px 5px rgba($primary, 0.1);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    object-fit: cover;
   }
 
   &__title {
+    font-size: 24px;
+    margin-bottom: 24px;
   }
 
-  &__ganres {
+  &__info {
+    color: $secondary;
+    margin-bottom: 12px;
   }
 
   &__description {
+    line-height: 1.5;
+    font-size: 16px;
   }
 }

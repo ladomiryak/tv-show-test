@@ -1,2 +1,3 @@
-export const SHOW_INFO = "show/:id";
-export const SHOW_EPISODE_INFO = "show:id/episode/:id";
+export const SHOW = "show/:showId?";
+export const SHOW_EPISODE =
+  "show/:showId/season/:seasonNum/episode/:episodeNum";

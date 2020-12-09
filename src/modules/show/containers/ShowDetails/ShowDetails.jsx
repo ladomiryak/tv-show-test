@@ -1,41 +1,57 @@
 import React, { useEffect } from "react";
+import { Loader, Alert } from "../../../shared";
 import "./style.scss";
 
-const ShowDetails = ({ showId, show, fetchShow }) => {
+const ShowDetails = ({ error, showId, show, fetchShow }) => {
+  // fetch Show Details
   useEffect(() => {
-    if (showId) {
+    if (showId && !show) {
       fetchShow({
         showId,
       });
     }
-  }, [showId, fetchShow]);
+  }, [showId, show, fetchShow]);
+
+  if (error) {
+    return (
+      <Alert variant="error">Something went wrong. Try later, please.</Alert>
+    );
+  }
 
   if (!show) {
-    return "Loading";
+    return <Loader />;
   }
 
   const {
     name,
     summary,
-    image: { medium, original },
+    image: { original },
     rating: { average },
     premiered,
     genres,
   } = show;
 
   return (
-    <div className="show">
-      <img src={medium} alt="Show poster" />
-      <h1>
-        {name} ({premiered.split("-")[0]}) {average}
-      </h1>
-      <ul>
-        {genres.map((genre) => (
-          <li key={genre}>{genre}</li>
-        ))}
-      </ul>
-      <p dangerouslySetInnerHTML={{ __html: summary }} />
-    </div>
+    <section className="show-details">
+      <img className="show-details__poster" src={original} alt="Show poster" />
+      <div>
+        <h1 className="show-details__title">
+          {name} ({premiered.split("-")[0]}) {average}
+        </h1>
+        <ul className="show-details__genres">
+          {genres.map((genre, i) => (
+            <li key={genre}>
+              {genre}
+              {i < genres.length - 1 ? "," : ""}
+            </li>
+          ))}
+        </ul>
+        <p
+          className="show-details__description"
+          dangerouslySetInnerHTML={{ __html: summary }}
+        />
+      </div>
+    </section>
   );
 };
 

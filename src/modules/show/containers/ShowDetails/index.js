@@ -6,6 +6,7 @@ import { showSelectors } from "../../selectors";
 
 const mapStateToProps = (state) => ({
   show: showSelectors.getShow(state),
+  error: showSelectors.getError(state),
 });
 
 const mapDispatchToProps = (dispatch) =>

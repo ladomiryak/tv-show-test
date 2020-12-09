@@ -1,54 +1,55 @@
-import { MainTypes } from "./types";
+import { ShowTypes } from "./types";
+
 export const defaultState = {
-  show: undefined,
-  episodeList: undefined,
-  episode: undefined,
+  showDetails: undefined,
+  showEpisodeDetails: undefined,
+  showEpisodeList: undefined,
   error: undefined,
 };
 
 export default (state = defaultState, action) => {
   switch (action.type) {
-    case MainTypes.FETCH_SHOW_SUCCEEDED:
+    case ShowTypes.FETCH_SHOW_SUCCEEDED:
       return {
         ...state,
-        show: action.payload,
+        showDetails: action.payload,
       };
-    case MainTypes.FETCH_SHOW_FAILED:
+    case ShowTypes.FETCH_SHOW_FAILED:
       return {
         ...state,
-        show: null,
-        error: action.payload,
-      };
-
-    case MainTypes.FETCH_SHOW_EPISODE_LIST_SUCCEEDED:
-      return {
-        ...state,
-        episodeList: action.payload,
+        showDetails: null,
+        error: true,
       };
 
-    case MainTypes.FETCH_SHOW_EPISODE_LIST_FAILED:
+    case ShowTypes.FETCH_SHOW_EPISODE_LIST_SUCCEEDED:
       return {
         ...state,
-        episodeList: null,
-        error: action.payload,
+        showEpisodeList: action.payload,
       };
 
-    case MainTypes.FETCH_SHOW_EPISODE:
+    case ShowTypes.FETCH_SHOW_EPISODE_LIST_FAILED:
       return {
         ...state,
-        episode: undefined,
+        showEpisodeList: null,
+        error: true,
       };
 
-    case MainTypes.FETCH_SHOW_EPISODE_SUCCEEDED:
+    case ShowTypes.FETCH_SHOW_EPISODE:
       return {
         ...state,
-        episode: action.payload,
+        showEpisodeDetails: undefined,
       };
 
-    case MainTypes.FETCH_SHOW_EPISODE_FAILED:
+    case ShowTypes.FETCH_SHOW_EPISODE_SUCCEEDED:
       return {
         ...state,
-        episode: null,
+        showEpisodeDetails: action.payload,
+      };
+
+    case ShowTypes.FETCH_SHOW_EPISODE_FAILED:
+      return {
+        ...state,
+        showEpisodeDetails: null,
         error: true,
       };
 

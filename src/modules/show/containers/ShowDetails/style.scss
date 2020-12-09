@@ -1,13 +1,44 @@
-.show {
+@import "../../.././../assets/scss/colors";
+
+.show-details {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+  padding: 40px 0;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+
   &__poster {
+    margin-right: 32px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 5px rgba($primary, 0.1);
+    min-width: 300px;
+    max-height: 500px;
+    object-fit: cover;
+    margin-bottom: 40px;
   }
 
   &__title {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    color: $primary;
   }
 
-  &__ganres {
+  &__genres {
+    display: inline-flex;
+    margin-bottom: 8px;
+    color: $tertiary;
+
+    li {
+      margin-right: 4px;
+    }
   }
 
   &__description {
+    line-height: 1.5;
+    max-width: 95%;
+    color: $primary;
   }
 }

@@ -1,4 +1,4 @@
-export const MainTypes = {
+export const ShowTypes = {
   FETCH_SHOW: "show/FETCH_SHOW",
   FETCH_SHOW_SUCCEEDED: "show/FETCH_SHOW_SUCCEEDED",
   FETCH_SHOW_FAILED: "show/FETCH_SHOW_FAILED",

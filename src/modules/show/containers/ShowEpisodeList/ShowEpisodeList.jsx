@@ -1,74 +1,92 @@
 import React, { useState, useEffect } from "react";
+import { groupBy } from "../../../../utils/common";
+import { Loader, Alert } from "../../../shared";
 import { Link } from "react-router-dom";
 import "./style.scss";
 
-const ShowDetails = ({
+const ShowEpisodeList = ({
   error,
   showId,
   episodeList,
   fetchShowEpisodeList,
-  show,
+  showSeason,
 }) => {
   const [listFiltered, setListFiltered] = useState([]);
 
+  // fetch Episode List
   useEffect(() => {
-    if (showId) {
+    if (showId && !episodeList) {
       fetchShowEpisodeList({
         showId,
       });
     }
-  }, [showId, fetchShowEpisodeList]);
+  }, [showId, fetchShowEpisodeList, episodeList]);
 
+  // Group Episode list by season
   useEffect(() => {
     if (episodeList) {
-      setListFiltered(filteredBySeasonList(episodeList));
+      setListFiltered(groupBy(episodeList, "season"));
     }
   }, [episodeList]);
 
+  // Render Episode Item
+  const EpisodeItem = ({ name, season, number, image }) => (
+    <li className="show-list__item">
+      <Link
+        to={`/show/${showId}/season/${season}/episode/${number}`}
+        className="show-list__item-link"
+      >
+        <img
+          src={
+            image?.medium ||
+            "https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+          }
+          alt="Episode poster"
+          className="show-list__item-poster"
+        />
+
+        <h4 className="show-list__item-title">{name}</h4>
+      </Link>
+    </li>
+  );
+
   if (error) {
-    return "Something went wrong. Try later, please.";
+    return (
+      <Alert variant="error">Something went wrong. Try later, please.</Alert>
+    );
   }
 
   if (!episodeList) {
-    return "Loading";
+    return <Loader />;
   }
 
-  const filteredBySeasonList = (items) =>
-    items.reduce((acc, item) => {
-      const index = item.season;
-      const seasonItems = acc[index] ? [...acc[index], item] : [item];
-      acc[index] = seasonItems;
-
-      return acc;
-    }, {});
-
   return (
-    <div className="showList">
-      {listFiltered &&
+    <ul>
+      {showSeason && listFiltered[showSeason] ? (
+        // Show Selected Season Episode list
+        <li className="show-list">
+          <span className="show-list__season">Season: {showSeason}</span>
+          <ul className="show-list__items">
+            {listFiltered[showSeason].map((episode) => (
+              <EpisodeItem key={episode.number} {...episode} />
+            ))}
+          </ul>
+        </li>
+      ) : (
+        // Show full Episode List
         Object.keys(listFiltered).map((key) => (
-          <div key={key}>
-            <span>Season: {key}</span>
-            <ul>
+          <li className="show-list" key={key}>
+            <span className="show-list__season">Season: {key}</span>
+            <ul className="show-list__items">
               {listFiltered[key].map((episode) => (
-                <li key={episode.name}>
-                  {episode.image && (
-                    <img src={episode.image.medium} alt="Episode poster" />
-                  )}
-                  <h4>
-                    <Link
-                      to={`/show/${showId}/season/${episode.season}/episode/${episode.number}`}
-                    >
-                      {episode?.name}
-                    </Link>
-                  </h4>
-                  <p dangerouslySetInnerHTML={{ __html: episode?.summary }} />
-                </li>
+                <EpisodeItem key={episode.number} {...episode} />
               ))}
             </ul>
-          </div>
-        ))}
-    </div>
+          </li>
+        ))
+      )}
+    </ul>
   );
 };
 
-export default ShowDetails;
+export default ShowEpisodeList;

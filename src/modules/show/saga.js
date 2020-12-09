@@ -1,5 +1,5 @@
 import { call, put, takeLatest } from "redux-saga/effects";
-import { MainTypes } from "./types";
+import { ShowTypes } from "./types";
 import * as actions from "./actions";
 import * as api from "./api";
 
@@ -10,7 +10,7 @@ export function* fetchShow(action) {
 
     const res = yield call(api.fetchShow, payload);
 
-    yield put(actions.fetchShowSucceeded(res.data));
+    yield put(actions.fetchShowSucceeded(res));
   } catch (ex) {
     yield put(actions.fetchShowFailed());
   }
@@ -23,7 +23,7 @@ export function* fetchShowEpisodeList(action) {
 
     const res = yield call(api.fetchShowEpisodeList, payload);
 
-    yield put(actions.fetchShowEpisodeListSucceeded(res.data));
+    yield put(actions.fetchShowEpisodeListSucceeded(res));
   } catch (ex) {
     yield put(actions.fetchShowEpisodeListFailed());
   }
@@ -36,14 +36,14 @@ export function* fetchShowEpisode(action) {
 
     const res = yield call(api.fetchShowEpisode, payload);
 
-    yield put(actions.fetchShowEpisodeSucceeded(res.data));
+    yield put(actions.fetchShowEpisodeSucceeded(res));
   } catch (ex) {
     yield put(actions.fetchShowEpisodeFailed());
   }
 }
 
 export default [
-  takeLatest(MainTypes.FETCH_SHOW, fetchShow),
-  takeLatest(MainTypes.FETCH_SHOW_EPISODE_LIST, fetchShowEpisodeList),
-  takeLatest(MainTypes.FETCH_SHOW_EPISODE, fetchShowEpisode),
+  takeLatest(ShowTypes.FETCH_SHOW, fetchShow),
+  takeLatest(ShowTypes.FETCH_SHOW_EPISODE_LIST, fetchShowEpisodeList),
+  takeLatest(ShowTypes.FETCH_SHOW_EPISODE, fetchShowEpisode),
 ];
