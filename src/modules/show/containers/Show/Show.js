@@ -4,7 +4,7 @@ import ShowDetails from "../ShowDetails";
 import ShowEpisodeList from "../ShowEpisodeList";
 
 const Show = () => {
-  const [selectedShow, setSelectedShow] = useState(6771);
+  const [selectedShow, setSelectedShow] = useState("6771");
   const { showId } = useParams();
 
   useEffect(() => {

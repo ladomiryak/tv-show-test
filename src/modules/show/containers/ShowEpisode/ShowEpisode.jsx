@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import dayjs from "dayjs";
+import PropTypes from "prop-types";
 import { Loader, Alert } from "../../../shared";
 import ShowEpisodeList from "../ShowEpisodeList";
 import "./style.scss";
@@ -66,6 +67,12 @@ const ShowEpisode = ({ error, episode, fetchShowEpisode }) => {
       <ShowEpisodeList showId={showId} showSeason={season} />
     </section>
   );
+};
+
+ShowEpisode.propTypes = {
+  error: PropTypes.bool,
+  episode: PropTypes.object,
+  fetchShowEpisode: PropTypes.func,
 };
 
 export default ShowEpisode;

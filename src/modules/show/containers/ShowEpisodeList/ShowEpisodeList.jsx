@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import { groupBy } from "../../../../utils/common";
 import { Loader, Alert } from "../../../shared";
 import { Link } from "react-router-dom";
@@ -87,6 +88,14 @@ const ShowEpisodeList = ({
       )}
     </ul>
   );
+};
+
+ShowEpisodeList.propTypes = {
+  error: PropTypes.bool,
+  showId: PropTypes.string,
+  episodeList: PropTypes.array,
+  fetchShowEpisodeList: PropTypes.func,
+  showSeason: PropTypes.number,
 };
 
 export default ShowEpisodeList;

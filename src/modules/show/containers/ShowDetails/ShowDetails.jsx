@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Loader, Alert } from "../../../shared";
+import PropTypes from "prop-types";
 import "./style.scss";
 
 const ShowDetails = ({ error, showId, show, fetchShow }) => {
@@ -53,6 +54,13 @@ const ShowDetails = ({ error, showId, show, fetchShow }) => {
       </div>
     </section>
   );
+};
+
+ShowDetails.propTypes = {
+  error: PropTypes.bool,
+  showId: PropTypes.string,
+  show: PropTypes.object,
+  fetchShow: PropTypes.func,
 };
 
 export default ShowDetails;
