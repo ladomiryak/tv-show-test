@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Show Details Poster should be shown 1`] = `
+<div>
+  <section
+    class="show-details"
+  >
+    <img
+      alt="Show poster"
+      class="show-details__poster"
+      src="http://static.tvmaze.com/uploads/images/original_untouched/60/151357.jpg"
+    />
+    <div>
+      <h1
+        class="show-details__title"
+        data-testid="show-name"
+      >
+        The Powerpuff Girls
+         (
+        2016
+        ) 
+        6.2
+      </h1>
+      <ul
+        class="show-details__genres"
+      >
+        <li>
+          Comedy
+          ,
+        </li>
+        <li>
+          Action
+          ,
+        </li>
+        <li>
+          Science-Fiction
+          
+        </li>
+      </ul>
+      <p
+        class="show-details__description"
+      >
+        <p>
+          The city of Townsville may be a beautiful, bustling metropolis, but don't be fooled! There's evil afoot! And only three things can keep the bad guys at bay: Blossom, Bubbles and Buttercup, three super-powered little girls, known to their fans (and villains everywhere) as 
+          <b>
+            The Powerpuff Girls
+          </b>
+          . Juggling school, bedtimes, and beating up giant monsters may be daunting, but together the Powerpuff Girls are up to the task. Battling a who's who of evil, they show what it really means to "fight like a girl."
+        </p>
+      </p>
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,772 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Show Episode List Loader should be shown with empty state 1`] = `
+<div>
+  <div
+    class="loader"
+    data-testid="loader"
+  />
+</div>
+`;
+
+exports[`Show Episode List Season third episode list should be show 1`] = `
+<div>
+  <ul>
+    <li
+      class="show-list"
+    >
+      <span
+        class="show-list__season"
+      >
+        Season: 
+        3
+      </span>
+      <ul
+        class="show-list__items"
+      >
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/1"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="http://static.tvmaze.com/uploads/images/medium_landscape/156/390583.jpg"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Not So Secret Service
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/2"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="http://static.tvmaze.com/uploads/images/medium_landscape/157/394148.jpg"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Worship
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/3"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Blossom3
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/4"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Mojo the Great
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/5"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Trouble Clef
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/6"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Save the Date
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/7"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Can't Buy Love
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/8"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Largo
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/9"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Blundercup
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/10"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Ragnarock and Roll
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/11"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Total Eclipse Of The Kart, Parts 1 & 2
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/12"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              The Long Skate Home
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/13"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Quarantine
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/14"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              In The Doghouse
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/15"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Salamander
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/16"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Small World: Abra-disaster
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/17"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Small World: Stone Cold Spider
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/18"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Small World: Maze Daze
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/19"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Small World: Heart To Heartstone
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/20"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Witch's Crew
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/21"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              The Gift
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/22"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Oh, Daisy!
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/23"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Brain Freeze
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/24"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Lights Out!
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/25"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Bucketboy!
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/26"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              The Fog
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/27"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              The Spoon
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/28"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Cat Burglar
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/29"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Hustlecup
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/30"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Rebel Rebel
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/31"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Our Brand is Chaos
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/32"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Tagalong
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/33"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Brainlord
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/34"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Checkin' Out!
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/35"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Drama Bomb
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/36"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Watch It!
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/37"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Man Up 4: The Donnyest Game
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/38"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              The Oct-father
+            </h4>
+          </a>
+        </li>
+        <li
+          class="show-list__item"
+        >
+          <a
+            class="show-list__item-link"
+            href="/show/undefined/season/3/episode/39"
+          >
+            <img
+              alt="Episode poster"
+              class="show-list__item-poster"
+              src="https://via.placeholder.com/220x120/FFFFFF/000000?Text=Poster"
+            />
+            <h4
+              class="show-list__item-title"
+            >
+              Sideline Dad
+            </h4>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+`;

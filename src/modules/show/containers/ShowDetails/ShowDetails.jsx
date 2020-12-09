@@ -35,7 +35,7 @@ const ShowDetails = ({ error, showId, show, fetchShow }) => {
     <section className="show-details">
       <img className="show-details__poster" src={original} alt="Show poster" />
       <div>
-        <h1 className="show-details__title">
+        <h1 data-testid="show-name" className="show-details__title">
           {name} ({premiered.split("-")[0]}) {average}
         </h1>
         <ul className="show-details__genres">

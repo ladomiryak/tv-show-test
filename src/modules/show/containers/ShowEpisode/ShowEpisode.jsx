@@ -33,7 +33,7 @@ const ShowEpisode = ({ error, episode, fetchShowEpisode }) => {
 
   return (
     <section>
-      <Link className="back-link" to={`/show/${showId}`}>
+      <Link className="link-back" to={`/show/${showId}`}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="24"

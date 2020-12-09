@@ -1,0 +1,814 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Show Episode Poster should be shown 1`] = `
+<div>
+  <section>
+    <a
+      class="link-back"
+      href="/show/undefined"
+    >
+      <svg
+        height="24"
+        viewBox="0 0 64 64"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M54 30H14.101l15.278-14.552a2 2 0 10-2.759-2.897L9.172 29.171A3.978 3.978 0 008 32c0 1.068.417 2.073 1.207 2.862l17.414 16.586c.387.369.883.552 1.379.552a1.999 1.999 0 001.38-3.448L14.038 34H54a2 2 0 000-4z"
+        />
+      </svg>
+       
+      Go back to show
+    </a>
+    <div
+      class="episode"
+    >
+      <img
+        alt="Show poster"
+        class="episode__poster"
+        src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132618.jpg"
+      />
+      <div>
+        <h1
+          class="episode__title"
+        >
+          Princess Buttercup
+        </h1>
+        <div
+          class="episode__info"
+        >
+          Episode: 
+          2
+           (
+          April 04 2016
+          )
+        </div>
+        <p
+          class="episode__description"
+        >
+          <p>
+            Buttercup becomes enamored with a team of roller derby girls called the Derbytantes. When she starts spending all of her time with them, Princess Morbucks seeks to be her replacement in the Powerpuff Girls.
+          </p>
+        </p>
+      </div>
+    </div>
+    <ul>
+      <li
+        class="show-list"
+      >
+        <span
+          class="show-list__season"
+        >
+          Season: 
+          1
+        </span>
+        <ul
+          class="show-list__items"
+        >
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/1"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132617.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Escape from Monster Island
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/2"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132618.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Princess Buttercup
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/3"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132627.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                The Stayover
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/4"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132628.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Painbow
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/5"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132629.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Horn, Sweet Horn
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/6"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132630.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Man Up
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/7"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132631.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Bye Bye, Bellum
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/8"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132632.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Little Octi Lost
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/9"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132633.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Strong Armed
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/10"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132808.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Power Up Puff
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/11"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/53/133032.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Tiara Trouble
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/12"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/54/135496.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                The Wrinklegruff Gals
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/13"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/55/138102.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Arachno Romance
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/14"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/56/140362.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Puffdora's Box
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/15"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/57/144042.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Blue Ribbon Blues
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/16"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/58/146906.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Frenemy
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/17"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/59/149245.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Once Upon a Townsville
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/18"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/60/150512.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Man Up 2: Still Man-ing
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/19"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/61/154095.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Viral Spiral
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/20"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/62/157077.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Bubbles of the Opera
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/21"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/63/159911.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Sister Sitter
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/22"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/74/186190.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Odd Bubbles Out
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/23"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/74/186191.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Presidential Punchout
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/24"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/74/187309.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Cheep Thrills
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/25"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/75/189519.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Fashion Forward
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/26"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/76/190585.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                In The Garden of Good and Eddie
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/27"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/76/192000.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Road Trippin'
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/28"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/81/203955.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                The Big Sleep
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/29"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/76/192002.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                The Secret Life of Blossom Powerpuff
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/30"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/81/203932.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Halt and Catch Silico
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/31"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/81/203933.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Secret Swapper of Doom
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/32"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/83/209125.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Rainy Day
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/33"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/83/209130.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                The Squashening
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/34"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/86/217144.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Electric Buttercup
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/35"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/87/218829.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Professor Proofed
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/36"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/87/218830.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Poorbucks
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/37"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/87/218832.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Snow Month
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/38"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/87/218833.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                Somewhere Over the Swingset
+              </h4>
+            </a>
+          </li>
+          <li
+            class="show-list__item"
+          >
+            <a
+              class="show-list__item-link"
+              href="/show/undefined/season/1/episode/39"
+            >
+              <img
+                alt="Episode poster"
+                class="show-list__item-poster"
+                src="http://static.tvmaze.com/uploads/images/medium_landscape/91/227711.jpg"
+              />
+              <h4
+                class="show-list__item-title"
+              >
+                People Pleaser
+              </h4>
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</div>
+`;
