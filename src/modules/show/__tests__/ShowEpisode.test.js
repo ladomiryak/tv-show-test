@@ -1,6 +1,6 @@
 import React from "react";
 import ShowEpisode from "../containers/ShowEpisode";
-import { render, screen } from "../test-util";
+import { render, screen } from "../../../utils/testProvider";
 import stateMock from "./mock.json";
 
 describe("Show Episode", () => {

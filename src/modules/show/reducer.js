@@ -4,7 +4,7 @@ export const defaultState = {
   showDetails: undefined,
   showEpisodeDetails: undefined,
   showEpisodeList: undefined,
-  error: undefined,
+  error: false,
 };
 
 export default (state = defaultState, action) => {
